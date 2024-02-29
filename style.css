@@ -1,0 +1,387 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  max-width: 1440px;
+  width: 100%;
+  height: 76px;
+  margin: auto;
+  padding: 11px 76px;
+  gap: 10px;
+}
+header {
+  max-width: 1241px;
+  width: 100%;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    cursor: pointer;
+  }
+  nav {
+    max-width: 537px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  ul {
+    max-width: 400px;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 10px;
+    a {
+      text-decoration: none;
+      color: #000000;
+      transition: 0.2s;
+      font-size: 16px;
+      font-weight: 600;
+      font-family: "Roboto", sans-serif;
+    }
+    a:hover {
+      opacity: 0.6;
+    }
+    img {
+      width: 20px;
+      height: 20px;
+    }
+    :nth-child(2) {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+    }
+  }
+}
+.navright {
+  max-width: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button {
+    background-color: transparent;
+    border-style: none;
+  }
+}
+/* ჰედერის დასასრული */
+.main {
+  max-width: 1440px;
+  width: 100%;
+  /* height: 1023px; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  .main-photo {
+    max-width: 730px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}
+.express {
+  max-width: 384px;
+  width: 100%;
+  height: 407px;
+
+  margin: auto;
+  h1 {
+    /* width: 384px;
+    height: 280px; */
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56.25px;
+    color: #5c5c5c;
+    font-family: "Roboto", sans-serif;
+  }
+  button {
+    width: 205px;
+    height: 53px;
+    padding: 16px 60px;
+    background-color: #e97d6f;
+    opacity: 0.8;
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 74px;
+    border: none;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    transition: 0.3s;
+  }
+  button:hover {
+    opacity: 1;
+  }
+}
+/* მეინის პირველი ნაწილის დასასრული */
+.main2 {
+  max-width: 1440px;
+  width: 100%;
+  /* height: 1025px; */
+  padding: 83px 0px;
+  margin: 50px auto;
+  h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56.25px;
+    padding-bottom: 64px;
+    color: #5c5c5c;
+    font-family: "Roboto", sans-serif;
+  }
+  .img3 {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    div {
+      max-width: 387px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .cardimg {
+        width: 100%;
+      }
+    }
+    button {
+      max-width: 387px;
+      width: 100%;
+      height: 76px;
+      color: white;
+      background-color: #b7bad9;
+      border: none;
+      font-size: 24px;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      align-items: center;
+      cursor: pointer;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+  .load {
+    width: 386px;
+    height: 65px;
+    margin: 95px auto;
+  }
+  button {
+    width: 386px;
+    height: 65px;
+    padding: 20px 60px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    border: none;
+    background-color: #e97d6f;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Roboto", sans-serif;
+  }
+  button:hover {
+    opacity: 1;
+  }
+}
+/* მეინის მეორე ნაწილის დასასრული */
+.main3 {
+  max-width: 1440px;
+  width: 100%;
+  /* height: 727px; */
+  padding: 0px 121px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .main3-photo {
+    max-width: 582px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .photoicon {
+    max-width: 684px;
+    width: 100%;
+    /* height: 730px; */
+    display: flex;
+    justify-content: center;
+    .icons {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+  }
+  .txt {
+    max-width: 384px;
+    width: 100%;
+    height: 450px;
+
+    h1 {
+      width: 384px;
+      height: 336px;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 56.25px;
+      color: #5c5c5c;
+      font-family: "Roboto", sans-serif;
+    }
+    button {
+      width: 205px;
+      height: 53px;
+      padding: 16px 60px;
+      background-color: #e97d6f;
+      opacity: 0.8;
+      cursor: pointer;
+      transition: 0.3s;
+      color: white;
+      font-size: 18px;
+      margin-top: 60px;
+      border: none;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+  button:hover {
+    opacity: 1;
+  }
+}
+
+/* მეინის მესამე ნაწილის დასასრული */
+
+footer {
+  width: 100%;
+  background-color: #f1e6e5;
+  padding: 52px 28px;
+  margin-top: 50px;
+  .footer {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    gap: 100px;
+    .list {
+      max-width: 631px;
+      width: 100%;
+      ul {
+        max-width: 451px;
+        width: 100%;
+        height: 168px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        li {
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 21px;
+          color: #5c5c5c;
+          list-style-type: none;
+          font-family: "Roboto", sans-serif;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .logoicons {
+    width: 287px;
+    height: 180px;
+    text-align: center;
+    img {
+      cursor: pointer;
+    }
+    h6 {
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 20px;
+      color: #5c5c5c;
+    }
+    div {
+      width: 124px;
+      height: 28px;
+      margin: 5px auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      :last-child {
+        width: 28px;
+        height: 28px;
+      }
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+/* responsive */
+@media only screen and (max-width: 992px) {
+  nav {
+    gap: 20px !important;
+  }
+  .express {
+    h1 {
+      font-size: 33px;
+      line-height: 50px;
+    }
+  }
+  .main2 {
+    .img3 {
+      flex-direction: column;
+      align-items: center;
+      div {
+        max-width: 420px;
+      }
+    }
+    .img3-btn {
+      button {
+        max-width: 420px;
+      }
+    }
+  }
+
+  .main2 {
+    padding: 83px 0px 10px 0;
+    margin: 0px auto;
+  }
+  .main3 {
+    flex-direction: column;
+    gap: 20px;
+    .photoicon {
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+  .main3 {
+    .txt {
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      h1 {
+        font-size: 30px;
+        line-height: 48px;
+        height: 100%;
+      }
+      button {
+        margin-top: 0;
+      }
+    }
+  }
+}
